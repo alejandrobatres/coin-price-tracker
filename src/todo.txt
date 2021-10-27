@@ -1,0 +1,25 @@
+Instructions: 
+
+We would like to look at a webpage that shows:
+
+Prices of Bitcoin and Ethereum from two (any) different exchanges/sources. 
+Differentiate buy and sell price clearly 
+Recommendations on which exchange one should buy and/or sell.
+Recommend where to buy and where to sell. Each of the recommendation can be a different exchange
+
+Deliverables:
+
+Link to github with the code
+Detailed instructions on how to build and run
+Answers to below Questionnaire ( included as a markdown file in GH repo)
+For bonus points, provide a link to live version of the solution
+ 
+
+Other info that is useful for doing the exercise:
+
+If BTC is 10000$ to buy on Exchange A and 10050$ to buy on Exchange B, you would recommend to buy on Exchange A. 
+Any front end technology is fine. We use React
+Any backend technology is fine. We use spring boot/java 
+You can pick any exchange for pricing. If exchange price is unavailable, use price from any service provider such as blockchain.com
+Your webpage is not hard coding the prices. It should talk to its own backend to fetch the prices. And that backend fetches prices from other exchanges/service providers
+
